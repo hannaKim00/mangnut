@@ -1,0 +1,84 @@
+/* layout ************************************ */
+
+/* test ************************* */
+.bor-col-1 {
+  border: 1px solid red;
+}
+.bor-col-2 {
+  border: 1px solid blue;
+}
+.bor-col-3 {
+  border: 1px solid green;
+}
+.bor-col-b2 {
+  border: 1px solid #b2b2b2;
+}
+.bor-col-5 {
+  border: 1px solid salmon;
+}
+.bor-col-6 {
+  border: 1px solid black;
+}
+.bor-bottom {
+  border-bottom: 1px solid #a0948c;
+}
+
+/* flex ************************* */
+.flex-center {
+  /* flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-space-between {
+  /* flex-space-between */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-wrap {
+  /* flex-wrap */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* block **************************** */
+.display-block {
+  display: block;
+}
+.display-inline-block {
+  display: inline-block;
+}
+
+/*position ************************* */
+.position-relative {
+  /* relative */
+  position: relative;
+}
+.position-absolute {
+  /* absolute */
+  position: absolute;
+}
+.translate {
+  transform: translate(-50%, -50%);
+}
+
+
+/* margin-bottom ****************** */
+.margin-bottom-150 {
+  margin-bottom: 150px;
+}
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}
+.margin-bottom-60 {
+  margin-bottom: 60px;
+}
+
+/* padding ************* */
+.padding2 {
+  padding: 2vh;
+}
+.padding2_5 {
+  padding: 2.5vh;
+}
