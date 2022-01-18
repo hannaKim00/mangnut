@@ -188,6 +188,10 @@ nav ul li a:hover {
 }
 #best ul {
   width: 128.5vw;
+  transition: .5s;
+}
+#best ul li ~ li {
+  margin-left: 8.9vw;
 }
 
 /* Contents */
