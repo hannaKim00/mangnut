@@ -17,7 +17,15 @@ window.onload = function () {
   const next = document.querySelector("#but-paeg #next");
   console.log(prve);
 
+  let marginleft = 23;
+  console.log(marginleft);
+  let clickcount = 0; 
   next.addEventListener("click", function() {
-    slider.style.marginLeft = "calc(-270px + -8.9vw)";
+    if(clickcount < 3) {
+      slider.style.marginLeft = -marginleft + "vw";
+      marginleft = marginleft + 23;
+      console.log(marginleft);
+      clickcount++;
+    }
   });
 }
