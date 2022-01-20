@@ -241,13 +241,6 @@ nav ul li a:hover {
   right: 14vw;
   background: url(../images/main/next.png) no-repeat;
 }
-/* hover */
-/* #but-paeg span:hover:nth-child(1) {
-  background: url(../images/main/prev.png) no-repeat;
-} */
-#but-paeg #next {
-  background: url(../images/main/next-hover.png) no-repeat;
-}
 
 
 /* event-banner ************* */
@@ -268,6 +261,13 @@ nav ul li a:hover {
 
 
 /* instagram *************** */
+#instagram-wrap {
+  overflow: hidden;
+}
+#instagram ul {
+  width: 121vw;
+  margin: 0 auto;
+}
 #instagram ul li #img::before {
   content: '';
   position: absolute;

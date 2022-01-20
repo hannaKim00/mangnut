@@ -1,4 +1,3 @@
-
 // 서브메뉴 마이페이지 
 const myPeag = document.querySelector("#sub-menu > #my-page");
 const myPeagSub = document.querySelector("#my-peag-sub");
@@ -33,7 +32,11 @@ function moveSlider(num) {
 next.addEventListener("click", function() {
   if(count < sliderCount -3) {
     moveSlider(count + 1);
-    prve.style.backgroundImage= "url(../images/main/prev.png)"
+    prve.style.background = "url(images/main/prev.png)"
+  }
+  // 활성, 비활성 이미지 변경
+  if(count == 3) {
+    next.style.background = "url(images/main/next-hover.png)"
   }
 });
 
@@ -43,5 +46,10 @@ next.addEventListener("click", function() {
 prve.addEventListener("click", function() {
   if(count > 0) {
     moveSlider(count - 1);
+    next.style.background = "url(images/main/next.png)"
+  }
+  // 활성, 비활성 이미지 변경
+  if(count == 0) {
+    prve.style.background = "url(images/main/prev-hover.png)"
   }
 });
