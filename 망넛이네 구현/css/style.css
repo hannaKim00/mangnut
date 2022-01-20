@@ -233,19 +233,19 @@ nav ul li a:hover {
   height: 80px;
   cursor: pointer;
 }
-#but-paeg span:nth-child(1) {
+#but-paeg #prve {
   left: 14vw;
   background: url(../images/main/prev-hover.png) no-repeat;
 }
-#but-paeg span:nth-child(2) {
+#but-paeg #next {
   right: 14vw;
   background: url(../images/main/next.png) no-repeat;
 }
 /* hover */
 /* #but-paeg span:hover:nth-child(1) {
-  background: url(../images/main/prev-hover.png) no-repeat;
+  background: url(../images/main/prev.png) no-repeat;
 } */
-#but-paeg span:hover:nth-child(2) {
+#but-paeg #next {
   background: url(../images/main/next-hover.png) no-repeat;
 }
 
