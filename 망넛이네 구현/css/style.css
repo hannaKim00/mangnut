@@ -267,6 +267,7 @@ nav ul li a:hover {
 #instagram ul {
   width: 121vw;
   margin: 0 auto;
+  transition: .5s;
 }
 #instagram ul li #img::before {
   content: '';
