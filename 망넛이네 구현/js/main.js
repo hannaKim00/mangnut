@@ -40,7 +40,7 @@ next.addEventListener("click", function() {
 });
 // prve 버튼을 클릭했을 때 발생 이벤트
 // count 값이 0 보다 클 경우에만 실행되고 count에 - 1 
-// => next를 클릭하면 count값은 증가하기 때문에 next버튼을 클릭 했을 때만 실행가능
+// => next를 클릭하면 count값은 증가하기 때문에 next버튼을 클릭 했을 때 활성화됨
 prve.addEventListener("click", function() {
   if(click > 0) {
     click--;
@@ -57,13 +57,15 @@ prve.addEventListener("click", function() {
 // instagram *************
 const instagram = document.querySelector('#instagram-wrap ul');
 const reviewlist = document.querySelectorAll('#instagram-wrap ul li');
-const reviewlistLength = reviewlist.length; // li의 갯수
+const reviewlistLength = reviewlist.length;
 let count = 0; 
 
 let times = setInterval(function() {
   if(count < reviewlistLength-4) {
     moveSlider(instagram, count, 12.1);
     count++;
+  } else {
+    count = 0;
   }
 }, 3000);
 
