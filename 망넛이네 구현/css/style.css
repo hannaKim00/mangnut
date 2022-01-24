@@ -69,9 +69,9 @@ nav ul li a:hover {
 #sub-menu > li {
   /* img-size */
   width: 20px;
-  height: 20px;
-  transition: .3s;
+  height: 60px;
   cursor: pointer;
+  transition: .3s;
   text-indent: -9999em;
 }
 #sub-menu > li ~ li {
@@ -80,6 +80,7 @@ nav ul li a:hover {
 #sub-menu > li span {
   text-indent: -9999em;
 }
+/* icon */
 #sub-menu > li:nth-child(1) {
   background: url(../images/main/mypaeg_icon.png) no-repeat 50% 50%;
 }
@@ -89,6 +90,7 @@ nav ul li a:hover {
 #sub-menu > li:nth-child(3) {
   background: url(../images/main/search_icon.png) no-repeat 50% 50%;
 }
+/* hoer icon */
 #sub-menu > li:hover:nth-child(1) {
   background: url(../images/main/mypaeg_icon2.png) no-repeat 50% 50%;
 }
@@ -98,12 +100,17 @@ nav ul li a:hover {
 #sub-menu > li:hover:nth-child(3) {
   background: url(../images/main/search_icon3.png) no-repeat 50% 50%;
 }
+
 /* mypeag */
 #my-peag-sub {
   left: 50%;
-  top: 3.5vh;
+  top: 5.5vh;
   height: 0;
   display: none;
+}
+/* 마이페이지 icon hover */
+#my-page:hover #my-peag-sub {
+  display: block;
 }
 #my-peag-sub li {
   text-indent: 0;
@@ -121,28 +128,6 @@ nav ul li a:hover {
   width: 100VW;
   height: 100vh;
   min-width: 1300PX;
-}
-#slider #paegs {
-  /* position */
-  bottom: 2vh;
-  left: 50%;
-}
-#paegs span {
-  /* size */
-  display: inline-block;
-  width: 70px;
-  height: 4px;
-  border-radius: 2px;
-  text-indent: -9999em;
-  margin: .2vw;
-  transition: .3s;
-  /* color */
-  background: #b4846c;
-}
-#paegs span.on,
-#paegs span:hover {
-  /* color */
-  background: #7d4e41;
 }
 
 

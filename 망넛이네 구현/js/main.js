@@ -1,17 +1,3 @@
-// 서브메뉴 마이페이지 ***********
-const myPeag = document.querySelector("#sub-menu > #my-page");
-const myPeagSub = document.querySelector("#my-peag-sub");
-
-// 마이페이지에 mouseenter 하면 서브 메뉴가 나타난다
-myPeag.addEventListener("mouseenter", function() {
-  myPeagSub.style.display = "block";
-});
-// 서브메뉴에서 mouseleave 하면 사라진다
-myPeagSub.addEventListener("mouseleave", function() {
-  myPeagSub.style.display = "";
-});
-
-
 // best 슬라이더 영역 ***********
 const bestSlider = document.querySelector("#best ul");
 const sliderList = document.querySelectorAll("#best ul li");
