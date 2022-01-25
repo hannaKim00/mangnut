@@ -42,16 +42,22 @@ prve.addEventListener("click", function() {
 
 // instagram *************
 const instagram = document.querySelector('#instagram-wrap ul');
-const reviewlist = document.querySelectorAll('#instagram-wrap ul li');
-const reviewlistLength = reviewlist.length;
-let count = 0; 
+const reviewlist = instagram.children; // instagram 자식요소들
 
-let times = setInterval(function() {
-  if(count < reviewlistLength-4) {
-    moveSlider(instagram, count, 12.1);
-    count++;
-  } else {
-    count = 0;
-  }
-}, 3000);
+// 첫번째 요소를 마지막 요소로 보내주는 함수 생성
+function slider() {
+  instagram.insertBefore(reviewlist[0],reviewlist.lastChild);
+};
 
+// 2초마다 이미지가 바뀜
+let times = setInterval(slider, 2000);
+
+// 마우스를 올렸을 경우 멈춤
+instagram.addEventListener("mouseover", function() {
+  clearInterval(times);
+});
+
+// 마우스가 아웃되면 다시 실행
+instagram.addEventListener("mouseout", function() {
+  times = setInterval(slider, 2000);
+});
