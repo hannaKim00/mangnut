@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
   /* color */
@@ -123,11 +126,18 @@ nav ul li a:hover {
 }
 
 /* slider ******************** */
+#slider {
+  width: 100VW;
+  height: 100vh;
+  overflow: hidden;
+}
 #slider img {
   /* size */
   width: 100VW;
   height: 100vh;
-  min-width: 1300PX;
+  /* min-width: 1300PX; */
+  transform: scale(1.2);
+  transition: 1.5s;
 }
 
 

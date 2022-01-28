@@ -1,3 +1,11 @@
+// slider 영역  **************
+const img = document.querySelector("#slider img");
+// 사이트가 로드 되었을 때 이미지 크기를 줄여줌
+window.addEventListener("load", function() {
+  img.style.transform =  "scale(1)";
+});
+
+
 // best 슬라이더 영역 ***********
 const bestSlider = document.querySelector("#best ul");
 const sliderList = document.querySelectorAll("#best ul li");
