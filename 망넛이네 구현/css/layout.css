@@ -88,3 +88,8 @@
 .padding2_5 {
   padding: 2.5vh;
 }
+
+/* hidden */
+.overflow-hidden {
+  overflow: hidden;
+}

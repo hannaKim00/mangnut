@@ -1,8 +1,14 @@
-// slider 영역  **************
+window.addEventListener('scroll', function(){
+  console.log(window.scrollY);
+});
+
+// header, slider 영역  **************
+const header = document.querySelector("header");
 const img = document.querySelector("#slider img");
-// 사이트가 로드 되었을 때 이미지 크기를 줄여줌
+// 사이트가 로드 되었을 때 이미지 크기를 줄여줌, 헤더의 투명도를 서서히 높어줌
 window.addEventListener("load", function() {
   img.style.transform =  "scale(1)";
+  header.style.opacity = "1";
 });
 
 
@@ -22,7 +28,7 @@ function moveSlider(slidername, num, marginleft) {
 // next 버튼을 클릭했을 때 발생 이벤트
 // count 값이 6-3=3 보다 작을 경우에만 실행되고 count에 + 1
 next.addEventListener("click", function() {
-  if(click < sliderCount -3) {
+  if(click < sliderCount-3) {
     click++;
     moveSlider(bestSlider, click, 23);
     prve.style.background = "url(images/main/prev.png)"
