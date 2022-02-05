@@ -1,7 +1,3 @@
-window.addEventListener('scroll', function(){
-  console.log(window.scrollY);
-});
-
 // header, slider 영역  **************
 const header = document.querySelector("header");
 const img = document.querySelector("#slider img");
@@ -9,6 +5,33 @@ const img = document.querySelector("#slider img");
 window.addEventListener("load", function() {
   img.style.transform =  "scale(1)";
   header.style.opacity = "1";
+});
+
+
+// 스크롤 이벤트 영역
+const introduction = document.querySelector("#introduction");
+const bestWrap = document.querySelector("#best-wrap");
+const newWrap = document.querySelector("#new-wrap");
+const eventBanner = document.querySelector("#event-banner");
+const instagramWrap = document.querySelector("#instagram");
+// 스크롤이 해당값을 초과하면 내용이 나타남
+window.addEventListener('scroll', function(){
+  console.log(window.scrollY);
+  if(window.scrollY > 400) {
+    introduction.style.opacity = "1";
+  }
+  if(window.scrollY > 1200) {
+    bestWrap.style.opacity = "1";
+  }
+  if(window.scrollY > 2080) {
+    newWrap.style.opacity = "1";
+  }
+  if(window.scrollY > 2500) {
+    eventBanner.style.opacity = "1";
+  }
+  if(window.scrollY > 2800) {
+    instagramWrap.style.opacity = "1";
+  }
 });
 
 
