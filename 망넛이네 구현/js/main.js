@@ -15,24 +15,19 @@ const newWrap = document.querySelector("#new-wrap");
 const eventBanner = document.querySelector("#event-banner");
 const instagramWrap = document.querySelector("#instagram");
 // 스크롤이 해당값을 초과하면 내용이 나타남
-window.addEventListener('scroll', function(){
-  console.log(window.scrollY);
-  if(window.scrollY > 400) {
-    introduction.style.opacity = "1";
-  }
-  if(window.scrollY > 1200) {
-    bestWrap.style.opacity = "1";
-  }
-  if(window.scrollY > 2080) {
-    newWrap.style.opacity = "1";
-  }
-  if(window.scrollY > 2500) {
-    eventBanner.style.opacity = "1";
-  }
-  if(window.scrollY > 2800) {
-    instagramWrap.style.opacity = "1";
-  }
-});
+function scroll(name, num) {
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > num) {
+      name.style.opacity = "1";
+      name.style.bottom = "0";
+    };
+  });
+}
+scroll(introduction,400);
+scroll(bestWrap,1200);
+scroll(newWrap,2080);
+scroll(eventBanner,2500);
+scroll(instagramWrap,2900);
 
 
 // best 슬라이더 영역 ***********
