@@ -1,0 +1,518 @@
+/* px */
+@media screen and (max-width: 1450px) {
+  /* header */
+  #logo a img {
+    width: 190px;
+  }
+  nav ul {
+    width: 46vw;
+  }
+  
+  /* introduction */
+  #introduction #introduction-wrap {
+    width: 70vw;
+  }
+  
+  /* Best of Best */
+  #best {              
+    width: 65vw;
+  }
+  #best ul {
+    width: 130vw;
+  }
+  #best ul li {
+    width: 22vw;
+  }
+  #best ul li a {
+    width: 18vw;
+    
+  }
+  #best ul li a > span,
+  #new ul li a > span {
+    width: 48px;
+    height: 48px;
+    font-size: 0.6rem;    
+    padding-top: 1rem;
+  }
+  #but-paeg #prve {
+    left: 10vw;
+  }
+  #but-paeg #next {
+    right: 10vw;
+  }
+
+  /* new */
+  #new {
+    width: 65vw;
+  }
+  #new-wrap {
+    margin-bottom: 90px;
+  }
+  #new-wrap #new ul li {
+    width: 19vw;
+  }
+
+  /* event-banner */
+  #event-banner {
+    width: 65vw;
+  }
+  #event-banner div {
+    width: 31vw;
+  }
+
+  /* instagram-wrap */
+  #instagram-wrap {
+    width: 65vw;
+  }
+  #instagram ul {
+    width: 132vw;
+  }
+  #instagram ul li {
+    width: 12vw;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  body {
+    font-size: 15px;
+  }
+  .font-size2_25 {
+    font-size: 2em;
+  }
+
+  /* header */
+  #logo a img {
+    width: 170px;
+  }
+  nav ul {
+    width: 49vw;
+    font-size: 1.05em;
+    font-weight: 600;
+  }
+
+  /* introduction */
+  #introduction #introduction-wrap {
+    width: 80vw;
+  }
+
+  /* Best of Best */
+  #best-wrap {
+    padding: 7vh 0 8vh;
+  }
+  #best-wrap h2 {
+    padding-bottom: 3vh;
+  }
+
+  /* new */
+  #new-wrap h2 {
+    margin-bottom: 45px;
+  }
+  #new-wrap #new ul li a #text {
+    font-size: 14px;
+  }
+
+  /* event-banner */
+  #event-banner {
+    width: 70vw;
+  }
+  #event-banner div {
+    width: 34vw;
+    padding: 1em;
+  }
+  #event-banner div p {
+    font-size: 13px;
+  }
+  #event-banner div p span {
+    font-size: 1.1rem;
+  }
+  #event-banner div > span {
+    font-size: .6rem;
+  }
+
+  /* address */
+  .font-size_8 {
+    font-size: .7rem;
+  }
+  #address p {
+    font-size: .7rem;
+  }
+
+  /* instagram */
+  #instagram ul li #text {
+    font-size: .8rem;
+  }
+  #instagram ul li #text span:nth-child(1) {
+    background: url(../images/main/love_icon.png) no-repeat 0 2px / 17px 14px;
+  }
+  #instagram ul li #text span:nth-child(2) {
+    background: url(../images/main/레이어\ 11.png) no-repeat 0 2px / 17px 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* header */
+  header {
+    justify-content: space-between;
+    padding: 0 5vw;
+  }
+  nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav ul {
+    width: 0;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 15vh;
+    background: #8b716a;
+    transition: .5s;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  nav ul li ~ li {
+    margin-top: 1.5vh;
+  }
+  nav ul li a {
+    color: #f2f2f2;
+  }
+  #sub-nav {
+    position: absolute;
+    right: 15vw;
+  }
+  #hamburger {
+    display: block;
+  }
+
+  /* introduction */
+  #introduction #introduction-wrap {
+    width: 95vw;
+  }
+
+  /* Best of Best */
+  #best-wrap {
+    margin-bottom: 80px;
+  }
+  .font-size2_25 {
+    font-size: 2em;
+  }
+  #best {
+    width: 80vw;
+  }
+  #best ul {
+    width: 150vw;
+  }
+  #best ul li {
+    width: 25vw;
+  }
+  #best ul li a {
+    width: 22vw;
+}
+  #best ul li a #text {
+    font-size: 14px;
+  }
+  #but-paeg {
+    display: none;
+  }
+
+  /* new */
+  #new {
+    width: 75vw;
+  } 
+  #new-wrap {
+    margin-bottom: 80px;
+  }
+  #new-wrap #new ul li {
+    width: 22vw;
+  }
+
+  /* event-banner */
+  #event-banner {
+    width: 70vw;
+  }
+  #event-banner div {
+    width: 34vw;
+    padding: 2vw;
+  }
+  #event-banner div img {
+    display: none;
+  }
+
+  /* instagram-wrap */
+  .margin-bottom-60 {
+    margin-bottom: 45px;
+  }
+  #instagram-wrap {
+    width: 70vw;
+  }
+  #instagram ul {
+    width: 180vw;
+  }
+  #instagram ul li {
+    width: 15vw;
+  }
+  #instagram ul li #text {
+    font-size: .7rem;
+  }
+  #instagram ul li #text span {
+    padding-left: 23px;
+  }
+
+  /* address */
+  footer > div {
+    width: 70vw;
+  }
+  #address img {
+    width: 14vw;
+  }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  /* class */
+  .margin-bottom-150 {
+    margin-bottom: 90px;
+  }
+  
+  /* header */
+  #logo a img {
+    width: 160px;
+  }
+  #sub-nav > ul > li {
+    width: 33px;
+  }
+
+  /* slider  */
+  #slider {
+    height: auto;
+  }
+  #slider img {
+    height: 63vh;
+  }
+  
+  /* introduction */
+  #introduction #introduction-wrap {
+    flex-direction: column;
+    width: 100%;
+  }
+  #introduction #introduction-wrap > #img  {
+    width: 50%;
+  }
+  #introduction #text {
+    width: 70%;
+    margin-top: 5vh;
+  }
+  #introduction #text strong {
+    font-size: 1.8em;
+  }
+  #introduction #introduction-wrap > #img img:nth-child(1) {
+    display: none;
+  }
+  #introduction #introduction-wrap > #img img:nth-child(2) {
+    margin-top: 0vh;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* Best of Best */
+  .font-size2_25 {
+    font-size: 1.9em;
+  }
+  #best-wrap {
+    padding: 5vh 0 7vh;
+  }
+  #best-wrap h2 {
+    padding-bottom: 2vh;
+  }
+  #best {
+    width: 85vw;
+  }
+  #best ul {
+    width: 190vw;
+  }
+  #best ul li {
+    width: 32vw;
+  }
+  #best ul li a {
+    width: 28vw;
+  }
+  #best ul li a > span,
+  #new ul li a > span {
+    width: 40px;
+    height: 40px;
+    font-size: 0.4rem;
+    left: 0.9vw;
+    top: 1.2vh;
+    padding-top: 0.8rem;
+  }
+
+  /* new */
+  #new {
+    width: 85vw;
+  }
+  #new-wrap #new ul li {
+    width: 27vw;
+  }
+  #new-wrap #new ul li a #text {
+    font-size: 12px;
+  }
+
+  /* event-banner */
+  #event-banner {
+    display: none;
+  }
+
+  /* instagram-wrap */
+  .margin-bottom-60 {
+    margin-bottom: 45px;
+  }
+  #instagram-wrap {
+    width: 80vw;
+  }
+  #instagram ul {
+    width: 275vw;
+  }
+  #instagram ul li {
+    width: 24vw;
+  }
+  #instagram ul li #text span:nth-child(1) {
+    background: url(../images/main/love_icon.png) no-repeat 0 2px / 15px 13px;
+  }
+  #instagram ul li #text span:nth-child(2) {
+    background: url(../images/main/레이어\ 11.png) no-repeat 0 2px / 15px 13px;
+  }
+
+  /* address */
+  #instagram {
+    margin-bottom: 90px;
+  }
+  .font-size_8 {
+    font-size: .6rem;
+  }
+  footer > div {
+    width: 87vw;
+  }
+  #address p {
+    font-size: .6rem;
+  }
+  #address img {
+    width: 18vw;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
+
+  /* header */
+  #logo a img {
+    width: 130px;
+  }
+  
+  /* #slider {
+    height: auto;
+  } */
+
+  /* introduction */
+  #introduction #introduction-wrap > #img  {
+    width: 70%;
+  }
+  #introduction #text {
+    width: 90%;
+  }
+
+  .font-size2_25 {
+    font-size: 1.7em;
+  }
+  #best-wrap {
+    padding: 4vh 0 6vh;
+}
+  #best-wrap h2 {
+    padding-bottom: 1vh;
+  }
+  #best {
+    width: 90vw;
+  }
+  #best ul {
+    width: 210vw;
+  }
+  #best ul li {
+    width: 35vw;
+  }
+  #best ul li a {
+    width: 31vw;
+  }
+  #best ul li a > span,
+  #new ul li a > span {
+    display: none;
+  }
+  #best ul li a #text {
+    font-size: 12px;
+  }
+
+  /* new */
+  #new-wrap {
+    margin-bottom: 35px;
+    height: 100%;
+    /* min-height: 1130px; */
+  }
+  #new-wrap #new {
+    width: 100vw;
+  }
+  #new-wrap #new ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #new-wrap #new ul li {
+    width: 53vw;
+  }
+  #new-wrap #new ul li:nth-child(1),
+  #new-wrap #new ul li:nth-child(3) {
+    margin: 0 auto 3vh 15vw;
+  }
+  #new-wrap #new ul li:nth-child(2) {
+    margin: 0 15vw 3vh auto;
+  }
+
+  /* instagram */
+  #instagram-wrap {
+    width: 85vw;
+  }
+  #instagram ul {
+    width: 293vw;
+  }
+  #instagram ul li {
+    width: 25vw;
+  }
+  #instagram ul li #text span {
+    padding-left: 21px;
+    display: block;
+  }
+  #instagram ul li #text span:nth-child(1) {
+    background: url(../images/main/love_icon.png) no-repeat 7vw 2px / 14px 12px;
+    margin-bottom: 3px;
+  }
+  #instagram ul li #text span:nth-child(2) {
+    background: url(../images/main/레이어\ 11.png) no-repeat 7vw 2px / 14px 12px;
+  }
+  #instagram ul li #text p {
+    display: none;
+  }
+
+  /* address */
+  .flex-center {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #instagram {
+    margin-bottom: 75px;
+  }
+  footer ul li {
+    width: 30%;
+  }
+  #address img {
+    width: 22vw;
+  }
+}

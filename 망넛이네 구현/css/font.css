@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap');
 /* font-family */
 body {
+  font-size: 16px;
   font-family: 'IBM Plex Sans KR', sans-serif;
 }
 .font-family {
@@ -9,6 +9,9 @@ body {
 }
 
 /* size */
+.font-size1_1 {
+  font-size: 1.1rem;
+}
 .font-size1_2 {
   font-size: 1.2rem;
 }
